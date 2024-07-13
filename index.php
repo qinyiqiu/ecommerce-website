@@ -7,7 +7,7 @@ session_start();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Planet Shopify | Online Shopping Site for Men</title>
+    <title>Inventory Management</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
     <link href='https://fonts.googleapis.com/css?family=Delius Swash Caps' rel='stylesheet'>
@@ -21,19 +21,18 @@ include 'includes/header_menu.php';
 include 'includes/check-if-added.php';
 ?>
     <!--Header ends-->
-    <div id="content">
+    <!-- <div id="content">
         <div id="bg" class=" ">
             <div class="container" style="padding-top:150px">
             <div class="mx-auto p-5 text-white" id="banner_content" style="border-radius: 0.5rem;" >
-            <h1>We sell Happiness :)</h1>
+            <h1>We sell service</h1>
             <p>Flat 40% OFF on premium brands </p>
             <a href="products.php" class="btn btn-warning btn-lg text-white">Shop Now</a>
-
             </div>
             </div>
 
         </div>
-    </div>
+    </div> -->
     <div class="text-center pt-4 h3">
         * Be fashionable Men *
     </div>
@@ -56,7 +55,7 @@ include 'includes/check-if-added.php';
                      </div>
                   </a>
              </div>
-            <div class="col-6 col-md-3 py-3">
+            <!-- <div class="col-6 col-md-3 py-3">
                 <a href="products.php#shoes">
                  <img src="images/shoes.jpg" class="img-fluid   " alt="" style="border-radius:0.5rem">
                 <div class="h5 pt-3 font-weight-bolder">
@@ -70,7 +69,7 @@ include 'includes/check-if-added.php';
                  <div class="h5 pt-3 font-weight-bolder">
                     Headphones
                  </div>
-              </div>
+              </div> -->
             </a>
         </div>
     </div>
