@@ -14,7 +14,7 @@ session_start();
     <link href='https://fonts.googleapis.com/css?family=Andika' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-<body style="margin-bottom:200px">
+<body>
     <!--Header-->
     <?php
 include 'includes/header_menu.php';
@@ -34,24 +34,24 @@ include 'includes/check-if-added.php';
         </div>
     </div> -->
     <div class="text-center pt-4 h3">
-        * Be fashionable Men *
+         Manage Your Store 
     </div>
     <!--menu highlights start-->
  <div class="container pt-3">
         <div class="row text-center ">
             <div class="col-6 col-md-3 py-3">
-                <a href="products.php#watch"> <img src="images/watch.jpg" class="img-fluid " alt="" style="border-radius:0.5rem">
+                <a href="products.php#watch"> <img src="images/drink.png" class="img-fluid " alt="" style="border-radius:0.5rem">
                 <!-- https://images.unsplash.com/photo-1523170335258-f5ed11844a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fm=jpg&w=400&fit=max-->
                     <div class="h5 pt-3 font-weight-bolder">
-                      Watches
+                      Drink
                    </div>
                  </a>
              </div>
             <div class="col-6 col-md-3 py-3 " >
                 <a href="products.php#shirt"  >
-                  <img src="images/clothing.jpg" class="img-fluid zoom" alt="" style="border-radius:0.5rem" >
+                  <img src="images/snack.png" class="img-fluid zoom" alt="" style="border-radius:0.5rem" >
                      <div class="h5 pt-3 font-weight-bolder">
-                        Clothing
+                        Snack
                      </div>
                   </a>
              </div>
@@ -69,8 +69,8 @@ include 'includes/check-if-added.php';
                  <div class="h5 pt-3 font-weight-bolder">
                     Headphones
                  </div>
-              </div> -->
-            </a>
+              </div>
+            </a> -->
         </div>
     </div>
 

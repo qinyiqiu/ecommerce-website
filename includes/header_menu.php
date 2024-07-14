@@ -1,9 +1,9 @@
 
 
 <!--Navigation bar start-->
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:rgba(0,0,0,0.5)">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:#FF686B">
             <div class="container">
-                    <a href="index.php" class="navbar-brand" style="font-family: 'Delius Swash Caps'">Planet Shopify</a>
+                    <a href="index.php" class="navbar-brand" style="font-family: 'Delius Swash Caps'">Inventory Management</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -14,15 +14,15 @@
                                Products
                             </a>
                                <div class="dropdown-menu">
-                                   <a href="products.php#watch" class="dropdown-item">Watches</a>
-                                   <a href="products.php#shirt" class="dropdown-item">T-Shirts</a>
-                                   <a href="products.php#shoes" class="dropdown-item">Shoes</a>
-                                   <a href="products.php#headphones" class="dropdown-item">Headphones/Speakers</a>
+                                   <a href="products.php#watch" class="dropdown-item">Drink</a>
+                                   <a href="products.php#shirt" class="dropdown-item">Food</a>
+                                   <!-- <a href="products.php#shoes" class="dropdown-item">Shoes</a>
+                                   <a href="products.php#headphones" class="dropdown-item">Headphones/Speakers</a> -->
                                </div>
                            
                        </li>
-                       <li class="nav-item"><a href="index.php" class="nav-link">Offers</a></li>
-                       <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li>
+                       <!-- <li class="nav-item"><a href="index.php" class="nav-link">Offers</a></li> -->
+                       <!-- <li class="nav-item"><a href="about.php" class="nav-link">About Us</a></li> -->
                        <?php
                        if (isset($_SESSION['email'])) {
                         ?>
@@ -57,7 +57,7 @@
     <!--Login trigger Modal-->
     <div class="modal fade" id="login" >
         <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content"style="background-color:rgba(255,255,255,0.95)">
+          <div class="modal-content"style="background-color:">
 
             <div class="modal-header">
               <h5 class="modal-title">Login</h5>

@@ -23,28 +23,28 @@ include 'includes/check-if-added.php';
 <!--header ends -->
 <div class="container" style="margin-top:65px">
          <!--jumbutron start-->
-        <div class="jumbotron text-center">
+        <!-- <div class="jumbotron text-center">
             <h1>Welcome to Planet Shopify!</h1>
             <p>We have wide range of products for you.No need to hunt around,we have all in one place</p>
-        </div>
+        </div> -->
         <!--jumbutron ends-->
         <!--breadcrumb start-->
-        <nav aria-label="breadcrumb">
+        <!-- <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Products</li>
             </ol>
-        </nav>
+        </nav> -->
         <!--breadcrumb end-->
     <hr/>
     <!--menu list-->
     <div class="row text-center" id="watch">
         <div class="col-md-3 col-6 py-2">
             <div class="card">
-                <img src="images/watch1.jpg" alt="" class="img-fluid pb-1" >
+                <img src="images/cola1.png" alt="" class="img-fluid pb-1" >
                 <div class="figure-caption">
-                    <h6>Guess 1875</h6>
-                    <h6>Price :Rs 3000</h6>
+                    <h6>COCA-COLA</h6>
+                    <h6>Price : 4.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -63,10 +63,10 @@ include 'includes/check-if-added.php';
         </div>
         <div class="col-md-3 col-6 py-2">
             <div class="card">
-                <img src="images/watch2.jpg" alt="" class="img-fluid pb-1">
+                <img src="images/cola2.png" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
-                    <h6>Guest Watch</h6>
-                    <h6>Price :Rs 2500</h6>
+                    <h6>COCA-COLA-CHERRY</h6>
+                    <h6>Price : 4.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -85,10 +85,10 @@ include 'includes/check-if-added.php';
         </div>
         <div class="col-md-3 col-6 py-2">
             <div class="card">
-                <img src="images/watch3.jpg" alt="" class="img-fluid pb-1">
+                <img src="images/cola3.png" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
-                    <h6>Panerai Watch</h6>
-                    <h6>Price :Rs 3500</h6>
+                    <h6>COCA-COLA-CAFFEIN-FREE</h6>
+                    <h6>Price : 4.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -107,10 +107,10 @@ include 'includes/check-if-added.php';
         </div>
         <div class="col-md-3 col-6 py-2">
             <div class="card">
-                <img src="images/watch4.jpg" alt="" class="img-fluid pb-1">
+                <img src="images/cola4.png" alt="" class="img-fluid pb-1">
                 <div class="figure-caption">
-                    <h6>Nonos Watch</h6>
-                    <h6>Price :Rs 1800</h6>
+                    <h6>COCA-COLA-VANILLA</h6>
+                    <h6>Price : 4.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -131,10 +131,10 @@ include 'includes/check-if-added.php';
     <div class="row text-center" id="shirt">
             <div class="col-md-3 col-6 py-3" >
                 <div class="card">
-                    <img src="images/shirt1.jpg" alt="" class="img-fluid pb-1"  >
+                    <img src="images/chips1.jpg" alt="" class="img-fluid pb-1"  >
                     <div class="figure-caption">
-                    <h6>Levis</h6>
-                    <h6>Price :Rs 1800</h6>
+                    <h6>LAY'S Classic Potato Chips</h6>
+                    <h6>Price : 5.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -153,10 +153,10 @@ include 'includes/check-if-added.php';
             </div>
             <div class="col-md-3 col-6 py-3">
                 <div class="card">
-                    <img src="images/shirt2.jpg" alt="" class="img-fluid pb-1" >
+                    <img src="images/chips2.jpg" alt="" class="img-fluid pb-1" >
                     <div class="figure-caption">
-                    <h6>Louis Philippe t-shirt</h6>
-                    <h6>Price :Rs 2500</h6>
+                    <h6>LAY'S BBQ Flavored Potato Chips</h6>
+                    <h6>Price : 5.5</h6>
                     <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -175,10 +175,10 @@ include 'includes/check-if-added.php';
             </div>
             <div class="col-md-3 col-6 py-3">
                 <div class="card">
-                    <img src="images/shirt3.jpg" alt="" class="img-fluid pb-1">
+                    <img src="images/chips3.jpg" alt="" class="img-fluid pb-1">
                     <div class="figure-caption">
-                        <h6>Highlander t-shirt</h6>
-                        <h6>Price :Rs 500</h6>
+                        <h6>LAY'S Sour Cream & Onion Flavored Potato Chips</h6>
+                        <h6>Price : 5.5</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -197,10 +197,10 @@ include 'includes/check-if-added.php';
             </div>
             <div class="col-md-3 col-6 py-3" >
                 <div class="card">
-                    <img src="images/shirt4.jpg" alt="" class="img-fluid pb-1">
+                    <img src="images/chips4.jpg" alt="" class="img-fluid pb-1">
                     <div class="figure-caption">
-                        <h6>GUCCI White t-Shirt</h6>
-                        <h6>Price :Rs 2300</h6>
+                        <h6>LAY'S Cheddar & Sour Cream Flavored Potato Chips</h6>
+                        <h6>Price : 5.5</h6>
                         <?php if (!isset($_SESSION['email'])) {?>
                     <p><a href="index.php#login" role="button" class="btn btn-warning  text-white ">Add To Cart</a></p>
                     <?php
@@ -218,7 +218,7 @@ include 'includes/check-if-added.php';
                 </div>
             </div>
         </div>
-        <div class="row text-center" id="shoes" >
+        <!-- <div class="row text-center" id="shoes" >
                 <div class="col-md-3 col-6 py-3">
                     <div class="card">
                         <img src="images/shoe1.jpg" alt="" class="img-fluid pb-1">
@@ -397,7 +397,7 @@ include 'includes/check-if-added.php';
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
       </div>
       <!--menu list ends-->
       <!-- footer-->
